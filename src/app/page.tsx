@@ -29,9 +29,7 @@ export default function Home() {
 					<h1 className='text-2xl p-4'>Generate Coffee Recommendation</h1>
 				</button>
 				{coffeeRecommendation && (
-					<h2 className='text-xl p-2'>
-						{JSON.stringify(coffeeRecommendation)}
-					</h2>
+					<h2 className='text-xl p-2'>{coffeeRecommendation}</h2>
 				)}
 			</div>
 		</main>
